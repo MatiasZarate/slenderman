@@ -20,6 +20,6 @@ window.addEventListener("load", function(){
 
             setTimeout(() => {
               window.location.href = "/slenderman"; 
-            }, 3000); 
+            }, 3000);
       });
 })

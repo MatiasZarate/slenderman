@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', cursive;
+}
+.body{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736462836/Sin_t%C3%ADtulo_cqmeex.png");
+   /* background-size:cover;*/
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    /*margin: 0;
+    height: 100%;*/
+}
+.centreseperra{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:350px;
+    /*how the fuck I can put them in the center*/
+}
+.caja{
+    color: white;
+    border: solid 5px black ;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259135/photo-1550684376-efcbd6e3f031_ekeoui.jpg");
+    width: 75%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.audio{
+    width: 230px;
+    height: 55px;
+    }
+.doslocosenposicion{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    height: 400px;
+    position: relative;
+}
+.doslocosenposicion2{
+    display: flex;
+    flex-direction:row;
+    /*justify-content: space-around;*/
+    height: 350px;
+    /*position: relative;*/
+}
+/*veo como solucionar esto del width del video, parece más complicado de lo que debería*/
+.avistamientos{
+    width: 400px;
+}
+.imagen{
+    width:500px;
+}
+.imagen2{
+    flex:content;
+    justify-content: center;
+    width: 990px;
+    height: 500px;
+}
+.button{
+    height: 100px;
+    color: black;
+    border: solid 5px black;
+    background-color: black;
+    align-items: center !important;
+    background:url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1737465018/paper_gqztut.jpg") ;
+    background-size:cover;
+    margin-left: 405px;
+    /*background-position:calc(65px);*/
+    /*debo ver como hacer que al tocar el botón, cambie de fondo negro a la imagen, y haga un sonido de splash de sangre o stab de cuchillo(?*/
+}

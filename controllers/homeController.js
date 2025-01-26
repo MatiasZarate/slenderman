@@ -6,6 +6,9 @@ const controlador = {
     },
     slenderman: (req,res)=>{
         res.render("slenderman")
+    },
+    notas: (req,res)=>{
+        res.render("notas")
     }
 }
 

@@ -3,7 +3,7 @@
     font-family: 'Roboto', cursive;
 }
 .body{
-    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736462836/Sin_t%C3%ADtulo_cqmeex.png");
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1738160956/7925642174_73ce92e1b0_b_utcl7j.jpg");
     background-size:cover;
     background-position: center;
     display: flex;
@@ -16,21 +16,22 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left:350px;
-    /*how the fuck I can put them in the center*/
+    margin-left:380px;
+    color: black;
 }
 .caja{
     color: white;
     border: solid 5px black ;
-    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259135/photo-1550684376-efcbd6e3f031_ekeoui.jpg");
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1738157386/unfondodemadera..._tns7b6.jpg");
     width: 75%; 
     height: 100%;
     display: flex;
     justify-content: center;
 }
 .audio{
-    width: 230px;
+    width: 260px;
     height: 55px;
+    margin-left: px;
     }
 .doslocosenposicion{
     display: flex;
@@ -58,4 +59,41 @@
     justify-content: center;
     width: 990px;
     height: 500px;
+}
+.nota{
+    width:200px;
+    height: 300px;
+}
+.centrensetontasnotas{
+   margin-left: 93px;
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.boton{
+   width: 200px; 
+   background-color: black;
+   color:white;
+}
+.boton2{
+    width: 200px; 
+    background-color: black;
+    color:white;
+    margin-left: 29px;
+ }
+.botonFinal{
+    width: 50px; 
+    height: 25px;
+    margin-top: 50px;
+    margin-left: 107px;
+    margin-bottom: 35px;
+    background-color: black;
+    color: red;
+}
+.notaposicion{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 7px;
 }

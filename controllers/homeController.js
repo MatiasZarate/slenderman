@@ -18,6 +18,9 @@ const controlador = {
     }, 
     notaOcho: (req,res)=>{
         res.render("notass/nota8")
+    },
+    final: (req,res)=>{
+        res.render("final")
     }
 }
 

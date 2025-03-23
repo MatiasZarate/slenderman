@@ -30,7 +30,7 @@
     justify-content: center;
 }
 .audio{
-    width: 230px;
+    width: 245px;
     height: 55px;
     }
 .doslocosenposicion{
@@ -54,6 +54,9 @@
 .imagen{
     width:500px;
 }
+.imagenn{
+    width:500px;
+}
 .imagen2{
     flex:content;
     justify-content: center;
@@ -71,4 +74,14 @@
     margin-left: 405px;
     /*background-position:calc(65px);*/
     /*debo ver como hacer que al tocar el botón, cambie de fondo negro a la imagen, y haga un sonido de splash de sangre o stab de cuchillo(?*/
+}
+/*.butto{
+    background-color: black;
+    color:white;
+    border: none;
+}*/
+.buto{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259135/photo-1550684376-efcbd6e3f031_ekeoui.jpg");
+    color:white;
+    border: none;
 }

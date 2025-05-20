@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    font-family: 'courier', cursive;
+}
+.body{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1747682612/135b8031023bc124c5ea10d9f226ed00_busjvz.jpg");
+    background-size:cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.centreseperra{
+    /*display: flex;
+    justify-content: center;
+    flex-direction: column;*/
+    margin-left:620px;
+    color: rgba(255, 0, 0, 0.815);
+}
+.audioyboton{
+    position: fixed;
+    bottom: 20px;    
+    left: 20px;      
+    z-index: 9999; 
+}
+.audio{
+    height: 55px;
+    /*margin-top: 25%;*/
+}
+.boton{
+    height: 50px;
+    width: 100px;
+    background:url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1747682580/Red-Creepy-Wood-Horror-Background-Loop_odr4lw.png") ;
+    background-size:cover;
+    color:white;
+   /* position: fixed;
+    bottom: 20px;    
+    left: 20px;      
+    z-index: 9999; */
+}
+/*.escena1{
+    display: none;
+}*/
+.escena2{
+    display: none;
+}
+.escena3{
+    display: none;
+}
+.escena4{
+    display: none;
+}
+.escena5{
+    display: none;
+}
+.escena6{
+    display: none;
+}
+.escena7{
+    display: none;
+}
+.escena8{
+    display: none;
+}
+.escena9{
+    display: none;
+}
+.escena10{
+    display: none;
+}
+.slenderman{
+    width: 100%; 
+    height: 100%;
+    position: fixed;
+}

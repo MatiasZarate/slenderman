@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', cursive;
+}
+.body{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1743254154/forestbaby_ocnav6.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+}
+.centreseperra{
+    /*display: flex;*/
+    justify-content: center;
+    flex-direction: column;
+    margin-left:450px;
+    /*how the fuck I can put them in the center*/
+}
+.centreseperra2{
+    justify-content: center;
+    flex-direction: column;
+    margin-left:42px;
+}
+.centreseperra3{
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 210px;
+    color: red;
+}
+.caja{
+    color: white;
+    border: solid 5px black ;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259135/photo-1550684376-efcbd6e3f031_ekeoui.jpg");
+    width: 75%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.caja2{
+    color: white;
+    border: solid 5px black ;
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259135/photo-1550684376-efcbd6e3f031_ekeoui.jpg");
+    width: 75%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.audio{
+    width: 245px;
+    height: 55px;
+    }
+.doslocosenposicion{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    height: 400px;
+    position: relative;
+}
+.doslocosenposicion2{
+    display: flex;
+    flex-direction:row;
+    /*justify-content: space-around;*/
+    height: 350px;
+    /*position: relative;*/
+}
+/*veo como solucionar esto del width del video, parece más complicado de lo que debería*/
+.avistamientos{
+    width: 400px;
+}
+.imagen{
+    width:500px;
+}
+.imageen{
+    width: 750px;
+    height: 400px;
+    margin-left: 130px;
+}
+.imagenn{
+    width:500px;
+    justify-content: center;
+}
+.imagen2{
+    flex:content;
+    justify-content: center;
+    width: 990px;
+    height: 500px;
+}
+.imagen3{
+    flex:content;
+    justify-content: center;
+    width: 930px;
+    height: 300px;
+}
+.button{
+    height: 50px;
+    width:200px;
+    color: black;
+    border: solid 5px black;
+    background:url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1737465016/paperblood_xw4g0j.jpg") ;
+    background-size:cover;
+    margin-left: 405px;
+}
+.button2{
+    height: 50px;
+    width:200px;
+    color: black;
+    border: solid 5px black;
+    background:url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1737465016/paperblood_xw4g0j.jpg") ;
+    background-size:cover;
+    margin-left: 360px;
+}
+/*.butto{
+    background-color: black;
+    color:white;
+    border: none;
+}*/
+.buto{
+    background-image: url("https://res.cloudinary.com/dduyxqrqt/image/upload/v1736259135/photo-1550684376-efcbd6e3f031_ekeoui.jpg");
+    color:white;
+    border: none;
+}

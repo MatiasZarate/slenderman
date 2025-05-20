@@ -3,10 +3,11 @@ window.addEventListener("DOMContentLoaded", function() {
 
     if (!llaveGuardada) {
         alert("codigo = " + llaveGuardada + " => no aceptado");
-        window.location.href = "/"; 
+        window.location.href = "/notas"; 
     }else{
+        localStorage.removeItem('llaveAcceso');
         alert("codigo = " + llaveGuardada + " => aceptado");
     }});
-  
+   
     
 

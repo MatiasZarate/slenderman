@@ -30,7 +30,7 @@ let prueba3 = document.getElementById("prueba3");
         }).then(({value})=> {
         if(value === "faceless"){
             swal.fire({title: "NOTA 1",
-                text: "Esta primera nota parece mostrarnos un consejo, y este es el evitar mirar a Slenderman, indicando que si lo hacemos el nos buscará. Est0 se puede relacionar con lo que mencioné anteriormente sobre como el busca a todas las personas que intentan ir a por el, intentando pasar desapercibido. Obviamente es solo una teoría y no puedo confirmarlo, pero estoy bastante seguro de eso. Creo que sé quien escribió la nota, pero mientras avances leyendo las notas, te explicaré.",
+                text: "Esta primera nota parece mostrarnos un consejo, y este es el evitar mirar a Slenderman, indicando que si lo hacemos el nos buscará. Est0 se puede relacionar con lo que mencioné anteriormente sobre como el busca a todas las personas que intentan ir a por el, intentando pasar desapercibido. Obviamente es solo una teoría y no puedo confirmarlo, pero estoy bastante seguro de eso. Desconozco quien escribió la nota",
                 imageUrl: "https://res.cloudinary.com/dduyxqrqt/image/upload/v1738180079/nota1_ljuasb.jpg",
                 imageWidth: 400,
                 imageHeight: 200,
@@ -90,7 +90,7 @@ let prueba3 = document.getElementById("prueba3");
          }).then(({value})=> {
          if(value === "woods"){
             swal.fire({title: "NOTA 3",
-                text: "en la nota podemos ver que está escrito 'dejame solo' con un dibujo de un arbol a lado, como si el que escribió la nota estuviera escapando de la entidad en el bosque. Pero eso no es lo único que descubrí en mi busqueda de las notas, encontré también los planos que relatan el origen de slenderman, redirige a esta página si quieres saberlos. También responderá a la inco9nita de quien está escribiendo las notas",
+                text: "en la nota podemos ver que está escrito 'dejame solo' con un dibujo de un arbol a lado, como si el que escribió la nota estuviera escapando de la entidad en el bosque. Pero eso no es lo único que descubrí en mi busqueda de las notas, encontré también los planos que relatan el origen de slenderman, redirige a esta página si quieres saberlos. ",
                 imageUrl: "https://res.cloudinary.com/dduyxqrqt/image/upload/v1738180079/nota3_ssuslq.jpg",
                 imageWidth: 400,
                 imageHeight: 200,
@@ -109,7 +109,7 @@ let prueba3 = document.getElementById("prueba3");
                    if(botonLlave){
                       botonLlave.addEventListener("click", function(){
                      /*alert("Botón de prueba clickeado");*/
-                     const llave = Math.random().toString(36).substring(2,10);
+                     const llave = /*Math.random().toString(36).substring(2,10);*/ "llave1";
                      localStorage.setItem("llaveAcceso", llave);
                      alert("llave de la nota 3 => " + llave);
                     })}
@@ -143,7 +143,7 @@ let prueba3 = document.getElementById("prueba3");
          }).then(({value})=> {
          if(value === "woods"){
             swal.fire({title: "NOTA 4",
-                text: "A simple vista, podemos ver la figura de sl3nderman y otros arboles, pero algunos arboles que están a lado, además de tener una forma extraña, tienen espirales arriba, como si fueran falsos... Se que suena rebuscado, pero tengo pruebas para creer que Slenderman estaba acompañado de alguien más, escondidos entre los arboles. Serán estos los proxys mencionados anteriormente? ",
+                text: "A simple vista, podemos ver la figura de sl3nderman y otros arboles, pero algunos arboles que están a lado, además de tener una forma extraña, tienen espirales arriba, como si fueran falsos... Se que suena rebuscado, pero esto capaz significa que esos arboles eran falsos, coincidiendo con el poder de generar alucinaciones que mencioné anteriormente. ",
                 imageUrl: "https://res.cloudinary.com/dduyxqrqt/image/upload/v1738180078/nota4_efblhh.jpg",
                 imageWidth: 400,
                 imageHeight: 200,
@@ -173,7 +173,7 @@ let prueba3 = document.getElementById("prueba3");
          }).then(({value})=> {
          if(value === "despair"){
             swal.fire({title: "NOTA 5",
-                text: "Esta es la nota más simple y facil de entender, pero probablemente una de las más trágicas. Muestra su desesperación de que alguien lo ayude, cosa que dudo que haya pasado, debido a que nunca más hubo registros del científ1co después de su desaparición.",
+                text: "Esta es la nota más simple y facil de entender, pero probablemente una de las más trágicas. Muestra su desesperación de que alguien lo ayude, cosa que dudo que haya pasado, debido a que nunca m4s hubo registros de el  después de su desaparición.... mira la nota 6 si quieres saber a quien me refiero.",
                 imageUrl: "https://res.cloudinary.com/dduyxqrqt/image/upload/v1738180079/nota5_nuzw5c.jpg",
                 imageWidth: 400,
                 imageHeight: 200,
@@ -219,7 +219,7 @@ let prueba3 = document.getElementById("prueba3");
                   if(botonLlave2){
                      botonLlave2.addEventListener("click", function(){
                     /*alert("Botón de prueba clickeado");*/
-                    const llave2 = Math.random().toString(36).substring(2,10);
+                    const llave2 = /*Math.random().toString(36).substring(2,10);*/"llave2";
                     localStorage.setItem("llaveAcceso2", llave2);
                     alert("llave de la nota 6 => " + llave2);
                    })}
@@ -253,7 +253,7 @@ let prueba3 = document.getElementById("prueba3");
          }).then(({value})=> {
          if(value === "guilty"){
             swal.fire({title: "NOTA 7",
-                text: "Esta es la nota en que se lo ve más desesperado, dibujando su silueta e intentando negar su existencia con los 'no'... eso puede 5ignificar algo? es una posibilidad, debo pensarlo y solo queda 1 nota.",
+                text: "Esta es la nota en que se lo ve más desesperado, dibujando su silueta e intentando negar su existencia con los 'no'... eso puede 5ignificar algo? lo único que puedo destacar es su probable arrepentimiento de haber provocado todo esto",
                 imageUrl: "https://res.cloudinary.com/dduyxqrqt/image/upload/v1738180079/nota7_knnkc9.jpg",
                 imageWidth: 400,
                 imageHeight: 200,
@@ -286,10 +286,10 @@ let prueba3 = document.getElementById("prueba3");
                 imageUrl: "https://res.cloudinary.com/dduyxqrqt/image/upload/v1738180079/nota8_hwzaoe.jpg",
                 imageWidth: 400,
                 imageHeight: 200,
-                background:"black",
+                background:"black",  
                 color:"white",
                 imageAlt: "Custom image",
-                html: '<h4>Algo pasó y la ultima nota es simplemente la silueta de slenderman y ese mensaje... capaz su significado sea que si encuentras esta nota, ya es un hecho que te está siguiendo. Si quieres saber el que yo creo que es el objetivo y debilidad de Slenderman, ven a esta vista. Creo que f1nalmente lo tengo.</h4><br><button id="prueba3" class="boton">obtener llave</button><br><button id="redirigirBtn" class="boton">Ir ahora</button>',
+                html: '<h4>Algo pasó y la ultima nota es simplemente la silueta de slenderman y ese mensaje... capaz para este punto, el científico ya se rindió y conocía su destino, pero dejó esta nota como última advertencia. Si quieres saber el que yo creo que es el objetivo y debilidad de Slenderman, ven a esta vista. Creo que f1nalmente lo tengo.</h4><br><button id="prueba3" class="boton">obtener llave</button><br><button id="redirigirBtn" class="boton">Ir ahora</button>',
                 showConfirmButton: false,
                 didOpen: () => {
                   const botonLlave3 = document.getElementById("prueba3");
@@ -298,14 +298,14 @@ let prueba3 = document.getElementById("prueba3");
                   if(botonLlave3){
                      botonLlave3.addEventListener("click", function(){
                     /*alert("Botón de prueba clickeado");*/
-                    const llave3 = Math.random().toString(36).substring(2,10);
+                    const llave3 = /*Math.random().toString(36).substring(2,10);*/"llave3";
                     localStorage.setItem("llaveAcceso3", llave3);
                     alert("llave de la nota 3 => " + llave3);
                    })}
                  
                    if(botonRedirigir){
                     botonRedirigir.addEventListener("click", function() {
-                       window.location.href = "/notass/nota3";
+                       window.location.href = "/notass/nota8";
                    })}
 
                }
